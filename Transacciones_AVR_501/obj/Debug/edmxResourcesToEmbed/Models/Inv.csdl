@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InventariosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="InventarioDetalle">
+    <Key>
+      <PropertyRef Name="Folio" />
+      <PropertyRef Name="Sucursal" />
+      <PropertyRef Name="Renglon" />
+    </Key>
+    <Property Name="Folio" Type="Int32" Nullable="false" />
+    <Property Name="Sucursal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Renglon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductoID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Precio" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Cantidad" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Inventarios" Relationship="Self.FK_InventarioDetalle_Inventarios" FromRole="InventarioDetalle" ToRole="Inventarios" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK_InventarioDetalle_Productos" FromRole="InventarioDetalle" ToRole="Productos" />
+    <NavigationProperty Name="Saldos" Relationship="Self.FK_InventarioDetalle_Saldos" FromRole="InventarioDetalle" ToRole="Saldos" />
+  </EntityType>
+  <EntityType Name="Inventarios">
+    <Key>
+      <PropertyRef Name="Folio" />
+      <PropertyRef Name="Sucursal" />
+    </Key>
+    <Property Name="Folio" Type="Int32" Nullable="false" />
+    <Property Name="Sucursal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <Property Name="TipoMovimiento" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="InventarioDetalle" Relationship="Self.FK_InventarioDetalle_Inventarios" FromRole="Inventarios" ToRole="InventarioDetalle" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+    </Key>
+    <Property Name="ProductoID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PrecioCompra" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="PrecioVenta" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="InventarioDetalle" Relationship="Self.FK_InventarioDetalle_Productos" FromRole="Productos" ToRole="InventarioDetalle" />
+  </EntityType>
+  <EntityType Name="Saldos">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+      <PropertyRef Name="Sucursal" />
+    </Key>
+    <Property Name="ProductoID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Sucursal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Saldo" Type="Double" Nullable="false" />
+    <NavigationProperty Name="InventarioDetalle" Relationship="Self.FK_InventarioDetalle_Saldos" FromRole="Saldos" ToRole="InventarioDetalle" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_InventarioDetalle_Inventarios">
+    <End Role="Inventarios" Type="Self.Inventarios" Multiplicity="1" />
+    <End Role="InventarioDetalle" Type="Self.InventarioDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inventarios">
+        <PropertyRef Name="Folio" />
+        <PropertyRef Name="Sucursal" />
+      </Principal>
+      <Dependent Role="InventarioDetalle">
+        <PropertyRef Name="Folio" />
+        <PropertyRef Name="Sucursal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InventarioDetalle_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="InventarioDetalle" Type="Self.InventarioDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="ProductoID" />
+      </Principal>
+      <Dependent Role="InventarioDetalle">
+        <PropertyRef Name="ProductoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InventarioDetalle_Saldos">
+    <End Role="Saldos" Type="Self.Saldos" Multiplicity="1" />
+    <End Role="InventarioDetalle" Type="Self.InventarioDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Saldos">
+        <PropertyRef Name="ProductoID" />
+        <PropertyRef Name="Sucursal" />
+      </Principal>
+      <Dependent Role="InventarioDetalle">
+        <PropertyRef Name="ProductoID" />
+        <PropertyRef Name="Sucursal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InventariosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="InventarioDetalle" EntityType="Self.InventarioDetalle" />
+    <EntitySet Name="Inventarios" EntityType="Self.Inventarios" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" />
+    <EntitySet Name="Saldos" EntityType="Self.Saldos" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_InventarioDetalle_Inventarios" Association="Self.FK_InventarioDetalle_Inventarios">
+      <End Role="Inventarios" EntitySet="Inventarios" />
+      <End Role="InventarioDetalle" EntitySet="InventarioDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InventarioDetalle_Productos" Association="Self.FK_InventarioDetalle_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="InventarioDetalle" EntitySet="InventarioDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InventarioDetalle_Saldos" Association="Self.FK_InventarioDetalle_Saldos">
+      <End Role="Saldos" EntitySet="Saldos" />
+      <End Role="InventarioDetalle" EntitySet="InventarioDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

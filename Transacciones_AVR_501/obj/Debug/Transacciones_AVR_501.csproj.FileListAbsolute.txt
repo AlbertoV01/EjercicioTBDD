@@ -1,0 +1,45 @@
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.exe.config
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.exe
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.pdb
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.AssemblyReference.cache
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.BuscarProducto.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Login.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Producto.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.ProductosVentas.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Properties.Resources.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Venta.resources
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.GenerateResource.cache
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.CoreCompileInputs.cache
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.exe
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.pdb
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.dll
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.pdb
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.CopyComplete
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.dll.config
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.dll
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.xml
+C:\Users\Alber\OneDrive\Escritorio\ITSG\INTERFAZ DASHBOARD\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.exe.config
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.exe
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\Transacciones_AVR_501.pdb
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.dll
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.dll
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.xml
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.pdb
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\bin\Debug\RDN.dll.config
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.AssemblyReference.cache
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.BuscarProducto.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Login.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Producto.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.ProductosVentas.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Properties.Resources.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.Venta.resources
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.GenerateResource.cache
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.CoreCompileInputs.cache
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.csproj.CopyComplete
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.exe
+C:\Users\Alber\OneDrive\Escritorio\Transacciones_AVR_501\Transacciones_AVR_501\obj\Debug\Transacciones_AVR_501.pdb
